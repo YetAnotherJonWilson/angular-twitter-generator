@@ -1,7 +1,6 @@
 angular.module('twitterApp', []);
 
-angular.module('twitterApp').controller('MainController', function($http){
-
+angular.module('twitterApp').controller('MainController', function($scope,$http){
 
 
 })
