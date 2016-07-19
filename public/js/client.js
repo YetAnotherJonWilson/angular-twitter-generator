@@ -1,11 +1,13 @@
 angular.module('twitterApp', []);
 
 angular.module('twitterApp').controller('MainController', function($scope, $http){
+
     //$http get info
     //random adjective
     $scope.nouns = [];
     $scope.adjectives = [];
     $scope.twitterHandle = [];
+
 
     var nounCount = 0;
     var adjCount = 0;
