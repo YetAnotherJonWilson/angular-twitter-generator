@@ -18,7 +18,5 @@ angular.module('twitterApp').controller('MainController', function($scope, $http
       });
       //combine adj+noun
       $scope.twitterHandle = $scope.adjective + $scope.noun;
-  }
-
 
 })

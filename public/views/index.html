@@ -8,7 +8,10 @@
   </head>
   <body ng-controller="MainController">
     <h1>Random Twitter Generator</h1>
-    <button ng-click="">Generate!</button>
-    
+    <button ng-click="handleClick()">Generate!</button>
+    <div ng-repeat="handle in twitterHandle">
+      <a ng-href="https://www.twitter.com/{{handle}}">@{{handle}}</a>
+    </div>
+
   </body>
 </html>
