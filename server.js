@@ -39,6 +39,7 @@ app.get('/adj', function(request, response){
     console.log(ourAdjectives);
 
       response.sendStatus(200);
+      response.send(ourAdjectives); 
       client.end()
     }
 
@@ -73,6 +74,7 @@ app.get('/noun', function(request, response){
 
       console.log('Great success');
       response.sendStatus(200);
+      response.send(ourNouns);
       client.end()
     }
 
